@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+:root{
+	--White: hsl(0, 0%, 100%);
+	--Light-gray: hsl(212, 45%, 89%);
+	--Grayish-blue: hsl(220, 15%, 55%);
+	--Dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+	background-color: var(--Light-gray);
+	text-align: center;
+	font-family: 'Outfit', sans-serif;
+}
+.wholeunit{
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+	background-color: var(--White);
+	width: 300px;
+}
+
+.qr-code-img{
+	border-radius: 10px;
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain
+}
